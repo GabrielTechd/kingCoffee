@@ -49,7 +49,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="text-center pt-4">
-                <p className="text-sm">Direitos Autorais &copy; 2023 King Coffee. Todos os direitos reservados.</p>
+                <p className="text-sm">Direitos Autorais &copy; 2024 King Coffee. Todos os direitos reservados.</p>
                 <div className="flex justify-center mt-2 space-x-2">
                     <SiVisa color="#1a1f71" size={24} />
                     <SiMastercard color="#ff5f00" size={24} />

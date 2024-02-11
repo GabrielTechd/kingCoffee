@@ -23,12 +23,12 @@ export default function King() {
                             </div>
 
                             <div className="m-auto sm:m-0 hidden sm:flex">
-                                <a href="/" className="py-4 px-4 border-t border-b">Veja nossos produtos</a>
-                                <a href="/" className="py-4 px-4 flex items-center border-t border-b border-l">Saiba mais sobre nós <IoIosArrowForward className="ml-2" /> </a>
+                                <a href="/produtos" className="py-4 px-4 border-t border-b">Veja nossos produtos</a>
+                                <a href="/sobre" className="py-4 px-4 flex items-center border-t border-b border-l">Saiba mais sobre nós <IoIosArrowForward className="ml-2" /> </a>
                             </div>
                             <div className="flex sm:hidden flex-col m-auto sm:m-0 gap-4">
-                                <a href="/" className="py-4 px-4 border">Veja nossos produtos</a>
-                                <a href="/" className="py-4 px-4 flex items-center border">Saiba mais sobre nós <IoIosArrowForward className="ml-2" /> </a>
+                                <a href="/produtos" className="py-4 px-4 border">Veja nossos produtos</a>
+                                <a href="/sobre" className="py-4 px-4 flex items-center border">Saiba mais sobre nós <IoIosArrowForward className="ml-2" /> </a>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export default function King() {
                 </div>
                 <img src="./coffee.png" alt="produto cafe" className="mx-auto h-56 w-auto mt-4" />
                 <div className="text-center">
-                    <a href="" className="border font-bold text-white mb-2 px-6 py-3 rounded-md mt-4 inline-block hover:bg-primaria hover:text-black duration-500 shadow-md">Compre agora</a>
+                    <a href="/produtos" className="border font-bold text-white mb-2 px-6 py-3 rounded-md mt-4 inline-block hover:bg-primaria hover:text-black duration-500 shadow-md">Compre agora</a>
                 </div>
             </div>
 

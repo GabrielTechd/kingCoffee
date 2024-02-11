@@ -12,6 +12,7 @@ export default function BemVindo() {
           <div className="absolute inset-0 bg-black opacity-45"></div>
           <div className="absolute inset-0 gap-2 flex flex-col justify-center items-center text-white text-center px-1">
             <h1 className="text-primaria text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">King Coffee</h1>
+            <p className=" text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">Nossa Historia</p>
             <div className="h-1 sm:w-96 w-40 m-3 bg-primaria"></div>
             <h2 className="text-xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold">Lorem ipsum dolor sit amet.</h2>
             <p className=" text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, modi.</p>

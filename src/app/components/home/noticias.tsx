@@ -22,7 +22,7 @@ export default function Noticias() {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor totam amet voluptates mollitia quidem magnam, voluptate vero cupiditate consequatur, deleniti explicabo delectus beatae tempora nobis, corporis odio reprehenderit aliquid voluptatum.
                             </p>
                         </div>
-                        <a href="" className="text-destaque hover:text-secundaria duration-700 inline-flex items-center">
+                        <a href="/historia" className="text-destaque hover:text-secundaria duration-700 inline-flex items-center">
                             Leia mais <IoIosArrowForward className="ml-1" />
                         </a>
                     </div>
@@ -42,7 +42,7 @@ export default function Noticias() {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor totam amet voluptates mollitia quidem magnam, voluptate vero cupiditate consequatur, deleniti explicabo delectus beatae tempora nobis, corporis odio reprehenderit aliquid voluptatum.
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor totam amet voluptates mollitia quidem magnam, voluptate vero cupiditate consequatur, deleniti explicabo delectus beatae tempora nobis, corporis odio reprehenderit aliquid voluptatum.
                             </p>
-                            <a href="#" className="text-destaque hover:text-secundaria duration-700 inline-flex items-center">
+                            <a href="/historia" className="text-destaque hover:text-secundaria duration-700 inline-flex items-center">
                                 Leia mais <IoIosArrowForward className="ml-1" />
                             </a>
                         </div>

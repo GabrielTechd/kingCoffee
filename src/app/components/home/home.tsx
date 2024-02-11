@@ -23,9 +23,9 @@ export default function Inicio() {
               <h2 className="text-base lg:text-3xl font-semibold">Sua cafeteria de cada dia</h2>
             </div>
             <div className="flex flex-col lg:flex-row items-center justify-center mb-10">
-              <a href="/" className="py-3 flex items-center px-6 mb-4 lg:mb-0 rounded-full border-2 hover:bg-secundaria hover:text-black duration-500 font-semibold mr-0 lg:mr-4">Nossas lojas <IoIosArrowForward className="ml-2" />
+              <a href="/lojas" className="py-3 flex items-center px-6 mb-4 lg:mb-0 rounded-full border-2 hover:bg-secundaria hover:text-black duration-500 font-semibold mr-0 lg:mr-4">Nossas lojas <IoIosArrowForward className="ml-2" />
               </a>
-              <a href="/" className="py-3 flex items-center px-6 rounded-full border-2 hover:bg-primaria hover:text-black duration-500 font-semibold">Saiba mais <IoIosArrowForward className="ml-2" /></a>
+              <a href="/sobre" className="py-3 flex items-center px-6 rounded-full border-2 hover:bg-primaria hover:text-black duration-500 font-semibold">Saiba mais <IoIosArrowForward className="ml-2" /></a>
             </div>
           </div>
         </div>

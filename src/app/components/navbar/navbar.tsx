@@ -8,6 +8,7 @@ import clsx from "clsx";
 
 import { FiMenu } from "react-icons/fi";
 import { IoCloseOutline } from "react-icons/io5";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -23,6 +24,14 @@ export default function Navbar() {
       link: "/"
     },
     {
+      label: "Lojas",
+      link: "/lojas"
+    },
+    {
+      label: "Produtos",
+      link: "/produtos"
+    },
+    {
       label: "Nossa história",
       link: "/historia"
     },
@@ -36,13 +45,12 @@ export default function Navbar() {
     <header className="flex justify-center">
       <nav className="flex container fixed mx-auto bg-destaque rounded-none sm:rounded-b-xl shadow-2xl z-50 justify-between sm:px-14 px-4 items-center py-1">
         {/* Logo para Desktop */}
-        <Link href={"/"} className="flex items-center text-3xl gap-2">
+        <Link href={"/"} className="flex justify-start items-center text-3xl gap-2">
           <img src="./logo.png" alt="logo" className="w-14 h-14 mb-5 block" />
           <h1 className="sm:flex hidden">King Coffee</h1>
         </Link>
-
         {/* Links de Navegação e Ícone do Menu para Desktop */}
-        <div className="hidden  lg:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-10">
           {navlinks.map((d, i) => (
             <Link
               key={i}
@@ -52,6 +60,11 @@ export default function Navbar() {
               {d.label}
             </Link>
           ))}
+          <section className="flex items-center gap-4">
+            {/* cart icon */}
+            <AiOutlineShoppingCart className="text-2xl" />
+            {/* avtar img */}
+          </section>
         </div>
 
         {/* Logo e Ícone do Menu para Mobile */}
@@ -85,8 +98,13 @@ export default function Navbar() {
               ))}
             </div>
             <div className="">
+              <section className="flex flex-col items-start mb-10 gap-10">
+                {/* cart icon */}
+                <AiOutlineShoppingCart className="text-3xl" />
+                {/* avtar img */}
+              </section>
               <h1 className="mb-5 text-xl">redes sociais:</h1>
-              <div className="flex text-3xl justify-between">
+              <div className="flex mb-20 text-3xl justify-between">
                 <RiTwitterXFill className="hover:text-slate-700 duration-500" />
                 <FaInstagram className="hover:text-fuchsia-500 duration-500" />
                 <FaFacebookF className="hover:text-blue-500 duration-500" />

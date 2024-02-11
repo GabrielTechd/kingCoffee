@@ -33,7 +33,6 @@ export default function RootLayout({
         <main>
           <Navbar />
           {children}
-          <div className="w-full h-24 bg-gray-100"></div>
           <Footer />
         </main>
       </body>
