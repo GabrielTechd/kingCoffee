@@ -20,24 +20,16 @@ export default function Navbar() {
   const navlinks = [
     {
       label: "Início",
-      link: "#"
+      link: "/"
     },
     {
       label: "Nossa história",
-      link: "#"
+      link: "/historia"
     },
     {
       label: "Sobre nós",
-      link: "#"
+      link: "/sobre"
     },
-    {
-      label: "Contato",
-      link: "#"
-    },
-    {
-      label: "Franquias",
-      link: "#"
-    }
   ];
 
   return (
