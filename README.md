@@ -1,5 +1,6 @@
-esse foi um projeto feito em nextjs para fins de estudos.
+## esse foi um projeto feito em nextjs para fins de estudos.
 
+![kingCoffee](https://github.com/GabrielTechd/kingCoffee/assets/127634990/04a30981-62d2-499a-b266-985c29893fb2)
 
 ## Visão Geral
 KingCoffee é um site de cafeteria que criei para fins de estudo e prática de desenvolvimento web. <br>
@@ -33,7 +34,7 @@ git clone https://github.com/GabrielTechd/kingCoffee
 cd kingCoffee
 npm install
 ```
-## 2. inicie o projeto
+## 3. inicie o projeto
 ```bash
 npm run dev
 ```
