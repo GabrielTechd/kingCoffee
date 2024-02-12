@@ -4,7 +4,7 @@ export default function Estruturas() {
   return (
     <main>
       <section className="container text-black mx-auto py-8">
-        <h1 className="text-4xl pt-36 text-black font-bold text-primary mb-8 text-center">Qualidade das Cafeterias</h1>
+        <h1 className="text-4xl pt-36 text-white font-bold text-primary mb-8 text-center">Qualidade das Cafeterias</h1>
         <div className="grid grid-cols-1 gap-8">
           <div className="rounded-lg bg-white overflow-hidden shadow-lg flex flex-col sm:flex-row">
             <img src="./historia3.jpg" alt="Cafeteria 1" className="w-full object-cover h-64 sm:w-64 sm:h-auto md:w-1/3 md:h-auto" />
