@@ -1,4 +1,5 @@
 import { IoIosArrowForward } from "react-icons/io";
+import Image from 'next/image';
 
 export default function King() {
 
@@ -40,7 +41,7 @@ export default function King() {
                     <h1 className="text-2xl">Ficou curioso e quer conhecer?</h1>
                     <h2 className="text-primaria">Adquira nosso Produto</h2>
                 </div>
-                <img src="./coffee.png" alt="produto cafe" className="mx-auto h-56 w-auto mt-4" />
+                <Image src="./coffee.png" alt="produto cafe" className="mx-auto h-56 w-auto mt-4" />
                 <div className="text-center">
                     <a href="/produtos" className="border font-bold text-white mb-2 px-6 py-3 rounded-md mt-4 inline-block hover:bg-primaria hover:text-black duration-500 shadow-md">Compre agora</a>
                 </div>

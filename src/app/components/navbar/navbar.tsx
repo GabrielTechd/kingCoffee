@@ -5,7 +5,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
 import clsx from "clsx";
-
 import { FiMenu } from "react-icons/fi";
 import { IoCloseOutline } from "react-icons/io5";
 import { AiOutlineShoppingCart } from "react-icons/ai";
@@ -43,10 +42,11 @@ export default function Navbar() {
 
   return (
     <header className="flex justify-center">
-      <nav className="flex container fixed mx-auto bg-destaque rounded-none sm:rounded-b-xl shadow-2xl z-50 justify-between sm:px-14 px-4 items-center py-1">
+      <nav className="flex container fixed mx-auto bg-destaque rounded-none 
+      sm:rounded-b-xl shadow-2xl z-50 justify-between sm:px-14 px-4 items-center py-1">
         {/* Logo para Desktop */}
         <Link href={"/"} className="flex justify-start items-center text-3xl gap-2">
-          <img src="./logo.png" alt="logo" className="w-14 h-14 mb-5 block" />
+          <Image src="./logo.png" alt="logo" className="w-14 h-14 mb-5 block" />
           <h1 className="sm:flex hidden">King Coffee</h1>
         </Link>
         {/* Links de Navegação e Ícone do Menu para Desktop */}
@@ -78,11 +78,12 @@ export default function Navbar() {
         {/* Sidebar do Menu Mobile */}
         <div
           className={clsx(
-            "fixed h-full w-screen lg:hidden bg-black/50  backdrop-blur-sm top-0 right-0 -translate-x-full transition-all",
+            "fixed h-full w-screen lg:hidden bg-black/50 backdrop-blur-sm top-0 right-0 -translate-x-full transition-all",
             isSideMenuOpen && "translate-x-0"
           )}
         >
-          <section className="text-texto bg-destaque justify-between flex-col absolute left-0 top-0 h-screen p-8 gap-8 z-50 w-56 flex">
+          <section className="text-texto bg-destaque justify-between 
+          flex-col absolute left-0 top-0 h-screen p-8 gap-8 z-50 w-56 flex">
             <div className="flex flex-col gap-8">
               <IoCloseOutline
                 onClick={() => setMenu(false)}

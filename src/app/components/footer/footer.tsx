@@ -1,13 +1,14 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { SiVisa, SiMastercard, SiAmericanexpress } from "react-icons/si";
+import Image from 'next/image';
 
 export default function Footer() {
     return (
         <footer className="bg-gray-200 text-black py-8">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div className="flex flex-col items-center md:items-start">
-                    <img src="./logo.png" alt="Logo da Marca" className="w-20 mb-2" />
+                    <Image src="./logo.png" alt="Logo da Marca" className="w-20 mb-2" />
                     <p className="text-lg font-bold">King Coffee</p>
                     <p className="text-sm text-center md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, reprehenderit.</p>
                     <div className="flex items-center space-x-2">

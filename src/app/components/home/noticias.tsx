@@ -1,5 +1,6 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { HiMiniArrowUturnDown } from "react-icons/hi2";
+import Image from 'next/image';
 
 export default function Noticias() {
     return (
@@ -7,7 +8,7 @@ export default function Noticias() {
             {/* Texto à direita e foto à esquerda */}
             <div className="sm:ml-10 sm:mr-10 flex flex-col lg:flex-row">
                 <div className="lg:w-1/2 md:mt-10">
-                    <img src="./homemcafe.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[100%] w-full" />
+                    <Image src="./homemcafe.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[100%] w-full" />
                 </div>
 
                 <div className=" ml-2 lg:w-1/2 lg:ml-10 lg:mt-0">
@@ -49,7 +50,7 @@ export default function Noticias() {
                     </div>
                 </div>
                 <div className="mb lg:w-1/2 order-1 lg:order-2 mt-10 lg:mt-0">
-                    <img src="./roçacafe.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[90%] w-full sm:w-95" />
+                    <Image src="./roçacafe.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[90%] w-full sm:w-95" />
                 </div>
             </div>
         </main>

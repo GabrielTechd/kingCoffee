@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function SobreNos() {
   return (
@@ -73,7 +74,7 @@ export default function SobreNos() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis id ex sodales consectetur nec eu massa. Mauris quis ex vel metus facilisis bibendum.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis id ex sodales consectetur nec eu massa. Mauris quis ex vel metus facilisis bibendum.
         </p>
-        <img src="./historia1.jpg" alt="Coffee Beans" className="mt-4 mx-auto rounded-lg shadow-lg img-fluid" />
+        <Image src="./historia1.jpg" alt="Coffee Beans" className="mt-4 mx-auto rounded-lg shadow-lg img-fluid" />
       </section>
 
       <section className="mb-12">
@@ -88,7 +89,7 @@ export default function SobreNos() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis id ex sodales consectetur nec eu massa. Mauris quis ex vel metus facilisis bibendum.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis id ex sodales consectetur nec eu massa. Mauris quis ex vel metus facilisis bibendum.
         </p>
-        <img src="./homemcafe.jpg" alt="Coffee Shop" className="mt-4 mx-auto rounded-lg shadow-lg img-fluid" />
+        <Image src="./homemcafe.jpg" alt="Coffee Shop" className="mt-4 mx-auto rounded-lg shadow-lg img-fluid" />
       </section>
 
       <section className="mb-12">
@@ -102,7 +103,7 @@ export default function SobreNos() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis id ex sodales consectetur nec eu massa. Mauris quis ex vel metus facilisis bibendum.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis id ex sodales consectetur nec eu massa. Mauris quis ex vel metus facilisis bibendum.
         </p>
-        <img src="./roçacafe.jpg" alt="Coffee Harvest" className="mt-4 mx-auto rounded-lg shadow-lg img-fluid" />
+        <Image src="./roçacafe.jpg" alt="Coffee Harvest" className="mt-4 mx-auto rounded-lg shadow-lg img-fluid" />
       </section>
 
       <section className="">
