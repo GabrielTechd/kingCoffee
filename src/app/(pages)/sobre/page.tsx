@@ -1,4 +1,4 @@
-import Estruturas from "@/app/components/lojas/estrutura";
+import Estruturas from "@/app/components/sobre/estrutura";
 import SobreNos from "../../components/sobre/sobre";
 
 export default function Sobre() {
