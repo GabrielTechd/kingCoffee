@@ -1,6 +1,5 @@
 import React from "react";
 import { FaMapMarkerAlt, FaPhone, FaCity, FaClock } from 'react-icons/fa';
-import Image from 'next/image';
 
 // Exemplo de dados das lojas
 const lojas = [
@@ -63,7 +62,7 @@ const LojasPage = () => {
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {lojas.map((loja, index) => (
           <div key={index} className="loja bg-gray-100 p-6 rounded-lg shadow-md">
-            <Image
+            <img
               src={loja.imagem}
               alt={`Imagem da loja ${loja.nome}`}
               className="mb-4 rounded-lg m-auto"

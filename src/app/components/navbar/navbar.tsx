@@ -46,7 +46,7 @@ export default function Navbar() {
       sm:rounded-b-xl shadow-2xl z-50 justify-between sm:px-14 px-4 items-center py-1">
         {/* Logo para Desktop */}
         <Link href={"/"} className="flex justify-start items-center text-3xl gap-2">
-          <Image src="./logo.png" alt="logo" className="w-14 h-14 mb-5 block" />
+          <img src="./logo.png" alt="logo" className="w-14 h-14 mb-5 block" />
           <h1 className="sm:flex hidden">King Coffee</h1>
         </Link>
         {/* Links de Navegação e Ícone do Menu para Desktop */}

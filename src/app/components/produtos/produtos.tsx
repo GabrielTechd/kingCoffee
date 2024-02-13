@@ -87,7 +87,7 @@ export default function ProdutosVenda() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {produtos.map((produto, index) => (
           <div key={index} className="rounded-lg bg-white overflow-hidden shadow-lg">
-            <Image src={produto.imagem} alt={produto.nome} className="w-auto h-36 m-auto object-cover" />
+            <img src={produto.imagem} alt={produto.nome} className="w-auto h-36 m-auto object-cover" />
             <div className="p-4">
               <h2 className="text-xl text-black font-semibold mb-2">{produto.nome}</h2>
               <p className="text-gray-800 mb-4">{produto.descricao}</p>

@@ -1,6 +1,5 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { HiMiniArrowUturnDown } from "react-icons/hi2";
-import Image from 'next/image';
 
 export default function BemVindo() {
   return (
@@ -23,7 +22,7 @@ export default function BemVindo() {
 
       <div className="sm:ml-10 sm:mr-10 flex flex-col lg:flex-row">
         <div className="lg:w-1/2">
-          <Image src="./historia1.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[100%] w-full" />
+          <img src="./historia1.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[100%] w-full" />
         </div>
 
         <div className=" ml-2 lg:w-1/2 lg:ml-10 lg:mt-0">
@@ -59,7 +58,7 @@ export default function BemVindo() {
           </div>
         </div>
         <div className="mb lg:w-1/2 order-1 lg:order-2 mt-10 lg:mt-0">
-          <Image src="./historia2.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[90%] w-full sm:w-95" />
+          <img src="./historia2.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[90%] w-full sm:w-95" />
         </div>
       </div>
 
@@ -67,7 +66,7 @@ export default function BemVindo() {
 
       <div className="sm:ml-10 sm:mr-10 flex flex-col lg:flex-row">
         <div className="lg:w-1/2">
-          <Image src="./roçacafe.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[100%] w-full" />
+          <img src="./roçacafe.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[100%] w-full" />
         </div>
 
         <div className=" ml-2 lg:w-1/2 lg:ml-10 lg:mt-0">
@@ -103,7 +102,7 @@ export default function BemVindo() {
           </div>
         </div>
         <div className="mb lg:w-1/2 order-1 lg:order-2 mt-10 lg:mt-0">
-          <Image src="./historia3.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[90%] w-full sm:w-95" />
+          <img src="./historia3.jpg" alt="homem fazendo cafe" className="object-contain h-auto lg:h-[90%] w-full sm:w-95" />
         </div>
       </div>
     </main>
