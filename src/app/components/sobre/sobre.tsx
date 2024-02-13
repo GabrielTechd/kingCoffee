@@ -5,7 +5,7 @@ export default function SobreNos() {
     <main className="container text-black mx-auto px-4 py-8">
       <section className="mt-24 mb-12">
         <div>
-          <h1 className="text-4xl font-bold text-primary mb-4">Sobre Nós</h1>
+          <h1 className="text-4xl text-black font-bold text-primary mb-4">Sobre Nós</h1>
           <p className="text-lg text-black leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis id ex sodales consectetur nec eu massa. Mauris quis ex vel metus facilisis bibendum. Proin aliquam ex in elit rutrum, id suscipit justo pharetra.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis turpis id ex sodales consectetur nec eu massa. Mauris quis ex vel metus facilisis bibendum.
